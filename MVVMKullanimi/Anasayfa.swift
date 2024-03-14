@@ -17,7 +17,7 @@ struct Anasayfa: View {
     var body: some View {
         VStack(spacing:20) {
             
-            Text(sonuc).font(.system(size: 50))
+            Text(sonuc).font(.system(size: 55))
             TextField("Sayi 1",text: $tfSayi1)
                 .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
             TextField("Sayi 2" , text: $tfSayi2)
